@@ -20,12 +20,12 @@
 
 .navigation a {
 	text-decoration: none;
+	list-style-position: inline;
+	font: 24px 'Roboto';
 	color: white;
 }
 
 .navigation li {
-	list-style-position: inline;
-	font: 24px 'Roboto';
 	color: white;
 }
 
