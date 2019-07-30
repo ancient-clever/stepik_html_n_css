@@ -13,34 +13,3 @@
 	margin-left: 55px;
 }
 
-nav {
-	float: right;
-	margin-top: 10px;
-	margin-right: 55px;
-}
-
-nav a, nav li {
-	text-decoration: none;
-	font-family: sans-serif;
-	color: white;
-	font-size: 24px;
-}
-
-nav ul {
-	margin: 0;
-	padding: 0;
-}
-
-nav li {
-	list-style-position: inside;
-}
-
-.top-menu li {
-	display: inline-block;
-	margin: 0;
-}
-
-.jumbotron {
-	height: 403px;
-	width: auto;
-}
