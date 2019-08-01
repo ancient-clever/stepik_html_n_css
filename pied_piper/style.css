@@ -1,5 +1,5 @@
 .header {
-	position: absolute;
+	position: fixed;
 	width: 1219px;
 	height: 84px;
 	left: 0px;
@@ -56,10 +56,11 @@
 }
 
 .jumbotron-text {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	position: relative;
+	width: 1219px;
+	height: 83px;
+	left: 0px;
+	top: 244px;
 }
 
 .problem {
