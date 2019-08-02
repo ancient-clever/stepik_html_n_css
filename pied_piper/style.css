@@ -1,10 +1,16 @@
-.header {
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
 	position: fixed;
-	width: 1219px;
+	top: 0;
+	width: 100%;
 	height: 84px;
-	left: 0px;
-	top: 0px;
 	background: #007765;
+	margin: 0;
+    overflow: hidden;
 }
 
 .logo {
@@ -15,28 +21,20 @@
 	top: 20px;
 }
 
-.navigation {
+.menu {
 	position: absolute;
 	right: 55px;
-	top: 28px;
+	margin-top: 28px;
 }
 
-.navigation li {
+.menu li {
+	display: inline;
 	font-family: Roboto;
 	font-style: normal;
 	font-size: 24px;
 	line-height: 28px;
 	text-align: center;
 	color: white;
-}
-
-.navigation ul {
-	margin: 0;
-	padding: 0;
-}
-
-.menu li {
-	display: inline-block;
 }
 
 .jumbotron {
@@ -48,19 +46,16 @@
 	color: white;
 }
 .jumbotron-image {
-	position: absolute;
 	width: 1219px;
 	height: 403px;
-	left: 0px;
-	top: 84px;
+	margin-top: 84px;
 }
 
 .jumbotron-text {
-	position: relative;
-	width: 1219px;
-	height: 83px;
-	left: 0px;
-	top: 244px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .problem {
