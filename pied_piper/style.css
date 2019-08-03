@@ -11,6 +11,7 @@ nav {
 	background: #007765;
 	margin: 0;
     overflow: hidden;
+	z-index: 1;
 }
 
 .logo {
@@ -38,6 +39,7 @@ nav {
 }
 
 .jumbotron {
+	position: relative;
 	font-family: Roboto;
 	font-style: normal;
 	font-size: 72px;
@@ -45,13 +47,14 @@ nav {
 	text-align: center;
 	color: white;
 }
-.jumbotron-image {
-	width: 1219px;
-	height: 403px;
+
+.jumbotron img {
+	width: 100%;
+	height: auto;
 	margin-top: 84px;
 }
 
-.jumbotron-text {
+.jumbotron div {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -59,51 +62,37 @@ nav {
 }
 
 .problem {
+	font-family: Roboto;
+	font-style: normal;
 	background: #EEEEEE;
-	position: absolute;
-	width: 1219px;
+	width: 100%;
 	height: 719px;
-	left: 0px;
-	top: 487px;
-}
-
-.problem-container {
-	position: absolute;
-	width: 1110px;
-	height: 488px;
-	left: 55px;
-	top: 139px;
+	padding: 55px;
 }
 
 .problem h1 {
-	font-family: Roboto;
-	font-style: normal;
 	font-size: 64px;
 	line-height: 75px;
 	text-align: center;
 	color: #007765;
+	
 }
 
 .problem p {
-	font-family: Roboto;
-	font-style: normal;
 	font-size: 32px;
 	line-height: 37px;
 }
 
 .hero {
-	position: relative;
 }
 
-.hero-image{
-	position: absolute;
-	width: 1219px;
-	height: 483px;
-	left: 0px;
-	top: 1206px;
+.hero img{
+	width: 100%;
+	height: auto;
+	margin-top: 0px;
 }
 
-.hero-text {
+.hero div {
 	position: absolute;
 	width: 893px;
 	height: 228px;
