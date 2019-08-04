@@ -28,7 +28,8 @@ nav {
 	margin-top: 28px;
 }
 
-.menu li {
+.menu li, a {
+	text-decoration: none;
 	display: inline;
 	font-family: Roboto;
 	font-style: normal;
