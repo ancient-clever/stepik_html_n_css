@@ -64,6 +64,7 @@ nav {
 }
 
 .problem {
+	position: relative;
 	font-family: Roboto;
 	font-style: normal;
 	background: #EEEEEE;
@@ -85,24 +86,24 @@ nav {
 	font-size: 32px;
 	line-height: 37px;
 	margin-left: 55px;
-	
 }
 
 .hero {
 	position: relative;
+	height: 483px;
 }
 
 .hero-img{
 	width: 100%;
-	height: 483px;
+	height: 100%;
 }
 
 .hero-txt {
 	position: absolute;
-
-	top: 1400px;
-	margin-left: 163px;
-	margin-right: 163px;
+	top: 0;
+	left: 0;
+	
+	margin: 128px 163px;
 
 	font-family: Roboto;
 	font-style: italic;
