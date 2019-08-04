@@ -133,6 +133,7 @@ nav {
 	height: 115px;
 	width: auto;
 	margin-left: 55px;
+	margin-right: 48px;
 	float: left;
 }
 
@@ -144,4 +145,65 @@ nav {
 	font-weight: normal;
 	font-size: 32px;
 	line-height: 37px;
+}
+
+.team {
+	background: #EEEEEE;
+	height: 845px;
+	width: 100%;
+}
+
+.team h1 {
+	margin-top: 0;
+	padding-top: 48px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	text-align: center;
+	color: #007765;
+}
+
+.team table {
+	margin-top: 56px;
+	width: 100%;
+	table-layout: fixed;
+}
+
+.team table tr {
+	line-height: 283px; 
+}
+
+.team-img {
+	width: 168px;
+	height: auto;
+}
+
+.team-card {
+	width: 350px;
+	height: 283px;
+}
+
+.team-card img {
+	width: 168px;
+	height: auto;
+}
+
+footer {
+	background: #333333;
+	height: 176px;
+	width: 100%;
+}
+
+footer p {
+	margin-top: 0px;
+	padding: 48px 340px;
+	color: white;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
 }
