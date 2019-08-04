@@ -165,29 +165,42 @@ nav {
 	color: #007765;
 }
 
-.team table {
-	margin-top: 56px;
-	width: 100%;
-	table-layout: fixed;
-}
-
-.team table tr {
-	line-height: 283px; 
-}
-
-.team-img {
-	width: 168px;
-	height: auto;
+.team-gallery {
+	margin-left: 55px;
 }
 
 .team-card {
 	width: 350px;
 	height: 283px;
+	text-align: center;
+	display: block;
+	float:left;
 }
 
 .team-card img {
 	width: 168px;
 	height: auto;
+}
+
+.team-card h3 {
+	margin-top: 12px;
+	margin-bottom: 0;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	color: #007765;
+}
+
+.team-card p {
+	margin-top: 0;
+	font-family: Roboto;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
 }
 
 footer {
